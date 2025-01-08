@@ -35,30 +35,34 @@ function RightBar() {
 
       {/* RightBar Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden flex flex-col fixed top-0 right-0 w-64 h-screen bg-gray-100 dark:bg-gray-800 shadow-lg z-50">
+        <div className="lg:hidden  flex flex-col fixed top-0 right-0  h-96  shadow-lg z-50 md:w-[220px] w-[375px]" id='backgroundcolor1'>
           {/* Close Button */}
-          <button onClick={toggleMenu} className="p-4 text-red-500 self-end">
+          <button onClick={toggleMenu} className="p-4  font-bold self-end">
+            <div className='flex justify-between items-center md:w-[190px] w-[350px]'>
+            <div className='text-[30px] md:text-[16px] text-white'>M.Usama Abbasi</div>
             <Cross />
+            </div>
           </button>
 
           {/* Menu Items */}
-          <ul className="flex flex-col space-y-6 mt-10 px-6">
-            <li className="cursor-pointer hover:text-blue-500 hover:underline underline-offset-4 transition duration-200">
-              Home
-            </li>
-            <li className="cursor-pointer hover:text-blue-500 hover:underline underline-offset-4 transition duration-200">
-              Services
-            </li>
-            <li className="cursor-pointer hover:text-blue-500 hover:underline underline-offset-4 transition duration-200">
-              Portfolio
-            </li>
-            <li className="cursor-pointer hover:text-blue-500 hover:underline underline-offset-4 transition duration-200">
-              Education
-            </li>
-            <li className="cursor-pointer hover:text-blue-500 hover:underline underline-offset-4 transition duration-200">
-              Contact
-            </li>
-          </ul>
+          <ul className="flex text-black font-bold flex-col space-y-6 mt-6 px-6">
+  <li className="cursor-pointer hover:text-black text-white hover:underline underline-offset-4 transition duration-200">
+    Home
+  </li>
+  <li className="cursor-pointer  hover:text-black text-white hover:underline underline-offset-4 transition duration-200">
+    Services
+  </li>
+  <li className="cursor-pointer  hover:text-black text-white hover:underline underline-offset-4 transition duration-200">
+    Portfolio
+  </li>
+  <li className="cursor-pointer  hover:text-black text-white hover:underline underline-offset-4 transition duration-200">
+    Education
+  </li>
+  <li className="cursor-pointer  hover:text-black text-white hover:underline underline-offset-4 transition duration-200">
+    Contact
+  </li>
+</ul>
+
         </div>
       )}
     </>

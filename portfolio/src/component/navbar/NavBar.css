@@ -1,0 +1,13 @@
+#backgroundcolor {
+    background: linear-gradient(135deg, #fe3d3df0, #ff7f50f0);
+}
+
+#backgroundcolor1{
+    background: linear-gradient(135deg, #fe3d3df0, #ff7f50f0);
+}
+#Leftbar{
+    background-color:#ff00007b;
+}
+#Leftbar:hover{
+    background-color:#ff0000b6 ;
+}
