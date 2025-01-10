@@ -13,12 +13,12 @@ function PartOne({Heading, title , button}) {
           <p className="w-full md:w-[70%] lg:w-[40%] leading-8 text-center md:text-left">
           {title}
           </p>
-          <button className="skill-items w-full md:w-[170px] flex items-center justify-center space-x-3 text-white bg-red-500 px-4 py-2 rounded-lg shadow-md hover:bg-red-600 transition duration-300">
+          <a href='#contact' className="skill-items w-full md:w-[170px] flex items-center justify-center space-x-3 text-white bg-red-500 px-4 py-2 rounded-lg shadow-md hover:bg-red-600 transition duration-300">
             <p>{button}</p>
             <span>
               <UpArrow />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </>

@@ -9,6 +9,8 @@ import MainConfigration from './Pages/MainConfigration';
 import Mainserives from './Pages/MainService';
 import MainPortfolio from './Pages/MainPortfolio';
 import SkillsCard from './Pages/SkillsCard';
+import MainContact from './Pages/MainContact';
+import FooterPage from './component/Footer/FooterPage';
 ;
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <MainPortfolio/>
         <Education/>
         <SkillsCard/>
+    <MainContact/>
+    <FooterPage/>
     </div>
   )
 }

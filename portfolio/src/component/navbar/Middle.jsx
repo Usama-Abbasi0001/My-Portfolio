@@ -16,9 +16,9 @@ function Middle() {
   <a href='#education' className="cursor-pointer  hover:text-red-500 text-white hover:underline underline-offset-4 transition duration-200">
     Education
   </a>
-  <li className="cursor-pointer  hover:text-red-500 text-white hover:underline underline-offset-4 transition duration-200">
+  <a href='#contact' className="cursor-pointer  hover:text-red-500 text-white hover:underline underline-offset-4 transition duration-200">
     Contact
-  </li>
+  </a>
 </ul>
 
     </div>
