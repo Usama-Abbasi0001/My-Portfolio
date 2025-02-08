@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cross, Email, Github, Linkedin, Rightbar } from '../../../public/Utils/Icons';
+import { Cross,  Github, Insta, Linkedin, Rightbar } from '../../../public/Utils/Icons';
 
 function RightBar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -11,15 +11,21 @@ function RightBar() {
     <>
       <div className="flex space-x-5">
         <div className="md:flex hidden space-x-6">
-          <div>
-            <Email />
-          </div>
-          <div>
+            <a href='https://www.instagram.com/usama_.khan090/'
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <Insta/>
+                              </a>
+          <a href='https://www.linkedin.com/in/usama-khan-0291272b4/'
+           target="_blank"
+           rel="noopener noreferrer">
             <Linkedin />
-          </div>
-          <div>
+          </a>
+          <a href='https://github.com/Usama-Abbasi0001?tab=repositories'
+           target="_blank"
+           rel="noopener noreferrer">
             <Github />
-          </div>
+          </a>
         </div>
         <div className="lg:hidden flex">
           <button onClick={toggleMenu} className="md:mt-0 mt-5">

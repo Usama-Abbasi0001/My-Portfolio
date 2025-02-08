@@ -1,5 +1,5 @@
 import React from 'react'
-import { Adderss, Email2, Phone } from '../../../public/Utils/Icons';
+import { Adderss, Email, Phone } from '../../../public/Utils/Icons';
 
 function LeftContact() {
   return (
@@ -17,7 +17,7 @@ function LeftContact() {
 
     <div className='flex space-x-5 items-center'>
     <div className='border-b-2 bg-gray-800 w-[60px] h-[60px] flex justify-center items-center rounded-[10px] border-red-500  transition-transform duration-300 hover:scale-110 hover:bg-gray-700 hover:border-red-700'>
-        <Email2/>
+        <Email/>
       </div>
         <div className='flex flex-col'>
         <p className='font-bold'>Email ID</p>

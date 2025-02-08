@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import  './NavBar.css'
 import Logo from '../../../public/images/logo.jpg'
-import { Cross, Email, Github, LeftBar, Linkedin } from '../../../public/Utils/Icons';
+import { Cross,  Github, Insta, LeftBar, Linkedin } from '../../../public/Utils/Icons';
 
 function LeftSideBar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -55,11 +55,23 @@ function LeftSideBar() {
         <div className='text-[16px]'>Nagori Plot Islamabad Colony</div>
         </div>
         <div className=''>
-        <div className='font-bold'>Adress</div>
+        <div className='font-bold'>Social</div>
         <div className='mt-3 flex space-x-7'>
-            <Email/>
-            <Linkedin/>
-            <Github/>
+        <a href='https://www.instagram.com/usama_.khan090/'
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <Insta/>
+                      </a>
+              <a href='https://www.linkedin.com/in/usama-khan-0291272b4/'
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <Linkedin />
+                      </a>
+            <a href='https://github.com/Usama-Abbasi0001?tab=repositories'
+                    target="_blank"
+                    rel="noopener noreferrer">
+                     <Github />
+                   </a>
             </div>
         </div>
         </div>

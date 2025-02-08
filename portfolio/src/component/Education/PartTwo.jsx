@@ -3,7 +3,7 @@ import './Eduction.css';
 
 function PartTwo() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <div className="border-2 p-4 md:ms-5 border-red-500 w-full max-w-[500px] rounded-[10px]  backdrop-blur-md mx-auto">
         <p className="text-[30px] font-bold md:text-start text-center ">Education</p>
         <hr className="mt-6 opacity-45" />

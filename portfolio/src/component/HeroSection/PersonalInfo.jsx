@@ -15,9 +15,7 @@ function PersonalInfo() {
 
     <div
   className="flex space-x-3 items-center border-2 border-dotted rounded-[10px] w-[150px] text-center justify-center py-3 hover:bg-red-500 cursor-pointer transition duration-300 mt-10 md:mx-0 mx-auto"
-  style={{ borderColor: "#FF0000" }}  data-aos="flip-left"
-  data-aos-easing="ease-out-cubic"
-  data-aos-duration="2000" 
+  style={{ borderColor: "#FF0000" }} 
 >
   <p>Here ME</p>
   <Arrow />
