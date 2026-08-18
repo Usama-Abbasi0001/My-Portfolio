@@ -12,7 +12,7 @@ import Addition from '../component/Cards/Addition';
 
 function SkillsCard() {
   return (
-    <div className='container flex mb-5  flex-col mt-16 justify-between px-10 items-center md:items-start space-y-8 md:space-y-0'>
+    <div className='container flex mb-5 flex-col mt-16 pt-20 md:pt-24 justify-between px-10 items-center md:items-start space-y-8 md:space-y-0'>
         <MySkills/>
         
         <div className="flex lg:flex-nowrap flex-wrap lg:justify-start justify-center gap-4 pt-[4rem] w-full lg:w-[1100px] overflow-x-auto lg:overflow-y-auto pb-10 custom-scrollbar">
